@@ -99,190 +99,6 @@
       ]
     },
     {
-      "DocumentTypeId": "NoGroup.NoCategory.CMS1500",
-      "Group": "academy",
-      "Category": "",
-      "Name": "CMS 1500",
-      "OptionalUniqueIdentifier": "",
-      "TypeField": {
-        "FieldId": "NoGroup.NoCategory.CMS1500.DocumentType",
-        "FieldName": "Document Type"
-      },
-      "Fields": [
-        {
-          "FieldId": "NoGroup.NoCategory.CMS1500.Patient'sname",
-          "FieldName": "Patient's name",
-          "IsMultiValue": true,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "False"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "a"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": ""
-        },
-        {
-          "FieldId": "NoGroup.NoCategory.CMS1500.NoStreet",
-          "FieldName": "No. Street",
-          "IsMultiValue": true,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "False"
-            },
-            {
-              "Key": "Color",
-              "Value": "#fa6616"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "r"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": ""
-        },
-        {
-          "FieldId": "NoGroup.NoCategory.CMS1500.City",
-          "FieldName": "City",
-          "IsMultiValue": true,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "False"
-            },
-            {
-              "Key": "Color",
-              "Value": "#8a97a0"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "c"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": ""
-        },
-        {
-          "FieldId": "NoGroup.NoCategory.CMS1500.state",
-          "FieldName": "state",
-          "IsMultiValue": true,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "False"
-            },
-            {
-              "Key": "Color",
-              "Value": "#6eb84a"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "e"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": ""
-        },
-        {
-          "FieldId": "NoGroup.NoCategory.CMS1500.Patient'sbirthdate",
-          "FieldName": "Patient's birthdate",
-          "IsMultiValue": true,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "False"
-            },
-            {
-              "Key": "Color",
-              "Value": "#1c78ff"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "h"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": ""
-        },
-        {
-          "FieldId": "NoGroup.NoCategory.CMS1500.Patient'ssex",
-          "FieldName": "Patient's sex",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "False"
-            },
-            {
-              "Key": "Color",
-              "Value": "#6222cf"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "x"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": ""
-        },
-        {
-          "FieldId": "NoGroup.NoCategory.CMS1500.TotalCharge",
-          "FieldName": "Total Charge",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "False"
-            },
-            {
-              "Key": "Color",
-              "Value": "#3ddb77"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "l"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": ""
-        }
-      ]
-    },
-    {
       "DocumentTypeId": "NoGroup.NoCategory.Invoicedocument",
       "Group": "academy",
       "Category": "invoices",
@@ -309,27 +125,6 @@
             {
               "Key": "Hotkey",
               "Value": "v"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": ""
-        },
-        {
-          "FieldId": "NoGroup.NoCategory.Invoicedocument.vendor'semailaddress",
-          "FieldName": "vendor's email address",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#fa6616"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "e"
             }
           ],
           "RuleSet": null,
@@ -378,27 +173,6 @@
           "DefaultValue": ""
         },
         {
-          "FieldId": "NoGroup.NoCategory.Invoicedocument.itemssold",
-          "FieldName": "items sold",
-          "IsMultiValue": false,
-          "Type": "Number",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#e422cf"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "m"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": ""
-        },
-        {
           "FieldId": "NoGroup.NoCategory.Invoicedocument.total",
           "FieldName": "total",
           "IsMultiValue": false,
@@ -420,6 +194,82 @@
           "DefaultValue": ""
         }
       ]
+    },
+    {
+      "DocumentTypeId": "Paie.NoCategory.Fiche-paie",
+      "Group": "Paie",
+      "Category": "salaries",
+      "Name": "Fiche-paie",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Paie.NoCategory.Fiche-paie.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Paie.NoCategory.Fiche-paie.first-Name",
+          "FieldName": "first-Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "Paie.NoCategory.Fiche-paie.second-Name",
+          "FieldName": "second-Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fcd98f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "Paie.NoCategory.Fiche-paie.Salary",
+          "FieldName": "Salary",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fda891"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        }
+      ]
     }
   ],
   "Groups": [
@@ -427,6 +277,12 @@
       "Name": "academy",
       "Categories": [
         "invoices"
+      ]
+    },
+    {
+      "Name": "Paie",
+      "Categories": [
+        "salaries"
       ]
     }
   ],

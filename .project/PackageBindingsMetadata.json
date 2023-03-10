@@ -429,6 +429,25 @@
         }
       }
     ],
+    "UiPath.Jira.IntegrationService.Activities.Scope": [
+      {
+        "Type": "Connection",
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
     "UiPath.Mail.Activities.Business.ExchangeApplicationCard": [
       {
         "Type": "Connection",

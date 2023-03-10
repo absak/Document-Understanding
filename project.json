@@ -9,6 +9,8 @@
     "UiPath.DocumentUnderstanding.OCR.LocalServer": "[1.4.0]",
     "UiPath.Excel.Activities": "[2.16.0]",
     "UiPath.IntelligentOCR.Activities": "[6.7.0-preview]",
+    "UiPath.Jira.Activities": "[2.4.1]",
+    "UiPath.Jira.IntegrationService.Activities": "[3.0.0]",
     "UiPath.Mail.Activities": "[1.18.2]",
     "UiPath.OCR.Activities": "[3.13.0-preview]",
     "UiPath.OmniPage.Activities": "[1.13.0]",
@@ -30,6 +32,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -58,6 +61,12 @@
     {
       "filePath": "PDD test.xaml",
       "uniqueId": "18eba1ad-2070-447c-9def-3e3cc6b273b8",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Document understanding.xaml",
+      "uniqueId": "2414339e-d2bd-4d51-986f-6b74220fad81",
       "input": [],
       "output": []
     }
